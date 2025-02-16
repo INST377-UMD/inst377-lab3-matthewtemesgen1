@@ -1,0 +1,132 @@
+body, h1, form, ul, li, header, footer, nav, div, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background and text color for the entire body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0FFFF; /* Light cyan background */
+    color: #333;
+    padding: 10px;
+}
+
+/* Styling for the main wrapper to center content and add shadow */
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #FFFFFF; /* White background for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow around the wrapper */
+}
+
+/* Header styling */
+header {
+    background-color: #333; /* Dark grey background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Remove default list styles and apply horizontal layout for nav items */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+/* Anchor tag styling in nav for links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* Hover effect for nav links */
+nav a:hover {
+    background-color: #117A65; /* Dark green background on hover */
+    text-decoration: none; /* Optional: remove underline on hover */
+}
+
+/* Main content area and sidebar container */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Main content and sidebar common styles */
+.main-content, .sidebar {
+    padding: 20px;
+    margin: 10px;
+    background-color: #F5F5F5; /* Light grey background */
+    border: 1px solid #CCC;
+}
+
+/* Main content specific styles */
+.main-content {
+    flex: 3; /* Takes three times more space than the sidebar */
+}
+
+/* Sidebar specific styles */
+.sidebar {
+    flex: 1;
+    background-color: #ADD8E6; /* Light blue background */
+}
+
+/* Hover effect for sidebar */
+.sidebar:hover {
+    background-color: #87CEEB; /* Lighter blue on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #CCC;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Input and select box styling */
+input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+/* Focus effect for input text box */
+input[type="text"]:focus {
+    background-color: #E0FFFF; /* Light cyan background on focus */
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Styling for unordered lists in the sidebar */
+ul {
+    padding-left: 20px; /* Indent items in unordered list */
+}
